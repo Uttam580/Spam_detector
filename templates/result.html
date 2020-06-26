@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prediction result</title>
+</head>
+<body>
+
+	<div class="header">
+        <h2>
+           Spam detection result
+        </h2>
+	</div> 
+	
+	<div class="results">
+		
+	{% if prediction == 1%}
+	<h2 style="color:rgb(238, 14, 14);">Spam</h2>
+	{% elif prediction == 0%}
+	<h2 style="color:rgb(8, 235, 64);">Not a Spam (It is a Ham)</h2>
+	{% endif %}
+
+	</div>
+
+</body>
+</html>
