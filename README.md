@@ -8,13 +8,13 @@ URL : https://spam-detector20.herokuapp.com/
 
 Project summary : 
 
-==============================================================================
+==============================================================
 
 The goal of this was to a spam detection model in python to automatically classify 
 a message as either spam or ham(legitimate messages).
 Hosting on Heroku using Flask (a lightweight web application framework).
 
-=============================================================================
+===============================================================
 
 # input 
 ![](input.PNG)
@@ -35,10 +35,11 @@ Hosting on Heroku using Flask (a lightweight web application framework).
 
 #  Source  : 
 
-https://towardsdatascience.com/a-simple-guide-for-deploying-a-spam-detector-onto-google-cloud-ab1cd7163a21
+Dataset: https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
-Kdnugget Blog,
+https://www.sciencedirect.com/science/article/pii/S2405844018353404
 
+https://medium.com/@davedodea/how-to-deploy-a-python-app-to-heroku-12289912f29c
 
 
 
