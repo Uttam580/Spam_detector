@@ -16,19 +16,22 @@ Hosting on Heroku using Flask (a lightweight web application framework).
 
 =============================================================================
 
-
+# input 
 ![](input.PNG)
+
+# output
 ![](output.PNG)
 
 
 
 # Contents
 
-* ```app.py``` - Front and back end portion of the web application excluding css and static data
-* ```Assets Folder```  - css files and static images
-* ```models``` - it contains script for extarcting data from yahoo finannce and fbprophet prediction.
-* ```src```- conatins stock file extracted from yahoo finance
-* ```out```- contains final predicton file.
+* ```app.py``` - main file
+* ```templates```  - This folder contains html for home and result page
+* ```models``` - This folder contains predict script and pickle file for nlp model andCountVectorizer
+* ```src```- This folderconatins source file for trainning the model.
+* ```requirement.txt```- contains requirement file to run the model on cloud.
+* ```proc file ``` -it  specifies the commands that are executed by the app on startup
 
 #  Source  : 
 
