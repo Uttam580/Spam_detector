@@ -1,7 +1,7 @@
  
 # Spam Detection 
 
-Simple spam detection app to predict spam using multiNB and integarted with Flask and deployed over heroku.
+Simple spam detection app integarted with Flask and deployed over heroku.
 
 URL : https://spam-detector20.herokuapp.com/
 
